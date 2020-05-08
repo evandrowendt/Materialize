@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões, Badges e Preloaders</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <!-- botões -->
+    <a href="#" class="btn red waves-effect waves-yellow">button</a>
+    <a class="waves-effect waves-light btn">button</a>
+    <button class="btn waves-effect waves-red" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+    </button>
+
+    <!-- badges -->
+    <div class="collection">
+        <a href="" class="collection-item"><span class="badge">1</span>Vendas</a>
+        <a href="" class="collection-item"><span class="new badge">33</span>Chat</a>
+        <a href="" class="collection-item"><span class="new badge" data-badge-caption="Novos Anúncios">13</span>News</a>
+    </div>
+
+    <!-- Preloaders -->
+    <!-- Podem ser com valores determinados pelo desenvolvedor -->
+    <div class="progress">
+        <div class="determinate" style="width: 70%"></div>
+    </div>
+    <!-- Podem ser com valores indeterminados -->
+    <div class="progress">
+        <div class="indeterminate"></div>
+    </div>
+
+    <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-red-only">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+<!-- publish
+attach_file -->
